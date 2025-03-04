@@ -1,4 +1,5 @@
-import { Outlet } from '@modern-js/runtime/router';
+import { Outlet } from "@modern-js/runtime/router";
+import "../../polyfill";
 
 export default function Layout() {
   return (
